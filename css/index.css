@@ -146,13 +146,6 @@ footer nav a {
     text-decoration: none;
 }
 
-.container nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
-}
-
 a{
     color: black;
     padding: 20px;
