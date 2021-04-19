@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;;
+	vertical-align: baseline;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.text-container0, .text-container1, .text-container2, .text-container3, .text-container4{
+    border-bottom: 1px dashed black;
+    padding: 7px;
+    margin: 10px;
+}
+
+.top-section{
+    display: flex;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}   
+
+.bottom-section{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.end-section{
+    display: flex;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h2{
+    padding: 5px;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 10px;
+    background-color:white;
+    border-style: 5px solid black;
+    padding: 2%;
+    margin: 3%;
+    width: 120px;
+    font-size: 17px;
+}
+
+.footer{
+    background-color: black;
+    height: 20px;
+}
+
+.a{
+    color: white;
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.text-container5{
+    padding: 0 5px 50px;
+    margin: 10px;
+    justify-self: center ;
+}
+
+.jumbo{
+display: flex;
+flex-direction: column;
+}
+
